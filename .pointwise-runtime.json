@@ -1,1 +1,1 @@
-{"version": 1, "kind": "cli", "setup": [], "verify": ["python3.11", "-B", "checks.py"], "demo": ["python3.11", "-B", "checks.py", "demo"]}
+{"version": 1, "kind": "cli", "setup": [], "verify": ["sh", "-c", "python3.11 -B checks.py && python3.11 -B -m unittest discover -s tests -v"], "demo": ["python3.11", "-B", "stream_demo.py"]}
